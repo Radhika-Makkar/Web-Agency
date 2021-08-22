@@ -172,7 +172,7 @@ text-transform: uppercase;
 
 .back-text{
     position: absolute;
-    bottom:-15em;
+    bottom:-20em;
     width:75%;
     margin:0 auto;
     height:100%;
@@ -185,7 +185,7 @@ text-transform: uppercase;
 }
 
 .back-text button{
-    margin-top:20px;
+
     padding:10px 20px;
     background:transparent;
     border:2px solid #e6af2e;
@@ -221,6 +221,7 @@ color:#e6af2e;
     padding:20px 0px 80px 0px;
     background-color:#e0e2db;
 }
+
 .projects-container{
     max-width:90vw;
     margin:0 auto;
@@ -296,7 +297,7 @@ opacity: 1;
     display: flex;
     justify-content: space-between;
     padding:0 20px;
-    margin-top:50px
+    margin-top:60px
 }
 
 #contact h1{
@@ -306,8 +307,8 @@ opacity: 1;
 #contact button{
     background: transparent;
     border-color: #e6af2e;
-    width:40%;
-    height:7vh;
+    width:45%;
+    height:8vh;
     color:#e6af2e;
     text-transform: uppercase;
 }
@@ -432,4 +433,13 @@ padding:0px 4px
 .services-container .service-item:nth-of-type(4){
     order:3
 }
+}
+@media only screen and (max-width:424px){
+    footer{
+        padding:5px 0px;
+    }
+    footer h4,i{
+        color:white;
+        font-size:16px;
+    }
 }
